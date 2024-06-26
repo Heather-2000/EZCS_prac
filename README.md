@@ -1,9 +1,14 @@
 # KT에이블스쿨 5기 충남/충북 21조 
 
 - 깃 클론 방법
-1. 깃 클론
-2. 깃 업스트림
-3. 깃 풀  
+1. 깃 클론해서 로컬 폴더 생성
+2. 로컬 폴더에서 git init
+3. git config 사용자 설정 
+5. 로컬 원격 remote + 로컬 레포 깃 main 브랜치에 연결 및 업로드(브랜치에 처음 연결할때만 -u 사용)
+- git remote add origin 깃주소 # 원격 레포 연결
+- git push -u origin master  # 로컬 레포 원격 master 브랜치에 push
+- git remote add 주소 
+
 
 
 ## 기본 커맨드 모음
@@ -34,11 +39,6 @@
 - (3) working directory도 특정 커밋처럼 리셋(--hard는 여기까지 수행)
 - (1) HEAD가 특정 커밋을 가리키도록 이동시킴(--soft는 여기까지 수행)
 - git tag [태그 이름] [커밋 아이디] : 특정 커밋에 태그를 붙임
-- 
-- 
-- 
-- 
-- 
 - git branch [새 브랜치 이름]: 새로운 브랜치를 생성
 - git checkout -b [새 브랜치 이름]: 새로운 브랜치를 생성하고 그 브랜치로 바로 이동
 - git branch -d [기존 브랜치 이름]: 브랜치 삭제
