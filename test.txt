@@ -2,9 +2,6 @@ test
 
 dd
 
-나는 찬미
-
-
 test13213
 
 aaaaaa
