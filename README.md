@@ -6,13 +6,13 @@ python=3.11
 - 깃 클론 방법
 1. 깃 클론해서 로컬 폴더 생성
 3. 로컬 폴더에서 git init
-   git init
+   - git init
 5. git config 사용자 설정 
 6. 로컬 원격 remote + 로컬 레포 깃 main 브랜치에 연결 및 업로드(브랜치에 처음 연결할때만 -u 사용)
-   git remote add origin https://github.com/Heather-2000/EZCS.git  # 원격 레포 연결
-   git add .
-   git commit -m 'Connect branch'
-   git push -u origin HEAD:dev  # 로컬 레포 원격 master 브랜치에 push
+   - git remote add origin https://github.com/Heather-2000/EZCS.git  # 원격 레포 연결
+   - git add .
+   - git commit -m 'Connect branch'
+   - git push -u origin HEAD:dev  # 로컬 레포 원격 master 브랜치에 push
 
 
 
